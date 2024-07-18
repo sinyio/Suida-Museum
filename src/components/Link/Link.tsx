@@ -5,7 +5,7 @@ interface LinkProps extends HTMLAttributes<HTMLAnchorElement> {}
 
 const Link: FC<LinkProps> = ({ children, ...rest }) => {
   return (
-    <a className={styles.a} {...rest}>{children}</a>
+    <a className={styles.link} {...rest}>{children}</a>
   )
 }
 
