@@ -9,9 +9,8 @@
   width: 50%;
   position: absolute;
   z-index: 1;
-  top: 450px;
+  bottom: 300px;
   left: 100px;
-  
 }
 
 .title {
