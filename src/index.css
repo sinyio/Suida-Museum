@@ -5,6 +5,18 @@
   --green: #C0CF24;
 }
 
+html {
+  font-size: 10px;
+}
+
+.h1 {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 400;
+  font-size: 9rem;
+  line-height: 11rem;
+  letter-spacing: -1%;
+}
+
 #root {
   display: flex;
   flex-direction: column;
@@ -15,8 +27,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
+  background-color: var(--main);
   min-height: 100vh;
 }

@@ -1,0 +1,26 @@
+{
+    "structure": {
+        "navigation": {
+            "tickets": true,
+            "collections": true,
+            "online_tour": true,
+            "about_us": true
+        }
+    },
+    "ru": {
+        "navigation": {
+            "tickets": "билеты",
+            "collections": "коллекции",
+            "online_tour": "онлайн тур",
+            "about_us": "о нас"
+        }
+    },
+    "en": {
+        "navigation": {
+            "tickets": "tickets",
+            "collections": "collections",
+            "online_tour": "online tour",
+            "about_us": "about us"
+        }
+    }
+}
