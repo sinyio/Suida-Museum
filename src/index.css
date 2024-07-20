@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Geist';
+  src: url(./fonts/Geist/Geist-Thin.woff2);
+}
+
 :root {
   /* Palette */
   --main: #0E0E0C;
@@ -7,14 +12,6 @@
 
 html {
   font-size: 10px;
-}
-
-.h1 {
-  font-family: "Cormorant Unicase", serif;
-  font-weight: 400;
-  font-size: 9rem;
-  line-height: 11rem;
-  letter-spacing: -1%;
 }
 
 #root {
@@ -27,12 +24,19 @@ html {
 * {
   margin: 0;
   padding: 0;
+  font-family: "Geist", serif;
+}
+
+h1 {
   font-family: "Cormorant Unicase", serif;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 200;
 }
 
 body {
   background-color: var(--main);
   min-height: 100vh;
+}
+
+main {
+  width: 100%;
 }

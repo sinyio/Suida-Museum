@@ -1,0 +1,27 @@
+.video {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  object-fit: cover;
+}
+
+.heroWrapper {
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 450px;
+  left: 100px;
+  
+}
+
+.title {
+  font-size: 90px;
+  color: var(--white);
+}
+
+.description {
+  font-weight: 300;
+  font-size: 25px;
+  color: var(--white);
+}
+
