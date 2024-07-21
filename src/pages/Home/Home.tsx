@@ -9,7 +9,9 @@ const Home = () => {
           <h1 className={styles.title}>Музей-усадьба Суйда</h1>
           <p className={styles.description}>Кстати,  представители современных социальных резервов лишь добавляют фракционных разногласий и призваны к ответу.</p>
         </div>
-        <video className={styles.video} src={video} muted autoPlay loop></video>
+        <div className={styles.videoWrapper}>
+          <video className={styles.video} src={video} muted autoPlay loop></video>
+        </div>
       </section>
     </main>
   )
