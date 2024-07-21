@@ -8,7 +8,7 @@ const Header: FC = () => {
 
   return (
     <header className={styles.header}>
-      <img src="src\assets\logo.png" aria-hidden="true" className={styles.leftHeaderItem}/>
+      <img src="src\assets\suida-logo.svg" aria-hidden="true" className={styles.leftHeaderItem}/>
       <nav>
         <ul className={styles.navList}>
           <li>{text?.tickets}</li>
