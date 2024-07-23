@@ -1,7 +1,7 @@
 .header {
-  background-color: var(--white);
+  background-color: rgba(14, 14, 12, 0.3);
   width: 100%;
-  height: 70px;
+  height: 60px;
   padding: 0 100px;
   display: flex;
   justify-content: space-between;
@@ -21,10 +21,10 @@
 
   li {
     text-transform: uppercase;
-    font-size: 3.3rem;
-    line-height: 4rem;
+    font-size: 30px;
     font-family: "Cormorant Unicase", serif;
     font-weight: 300;
+    color: var(--white);
   }
 }
 
@@ -35,4 +35,5 @@
 .rightHeaderItem div {
   font-family: "Cormorant Unicase", serif;
   font-weight: 300;
+  color: var(--white);
 }
