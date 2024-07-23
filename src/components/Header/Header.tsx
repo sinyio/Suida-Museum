@@ -2,7 +2,7 @@ import { FC } from "react"
 import styles from './Header.module.css'
 import { useTranslation } from "../../hooks/useTranslation/useTranslation"
 import LanguageSwitch from "../LanguageSwitch/LanguageSwitch"
-import logo from '../../assets/logo.png'
+import logo from '../../assets/suida-logo.svg'
 
 const Header: FC = () => {
   const { text } = useTranslation('navigation')
