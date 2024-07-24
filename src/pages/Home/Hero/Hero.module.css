@@ -29,12 +29,12 @@
 
 .title {
   font-size: 90px;
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .description {
   font-weight: 300;
   font-size: 25px;
-  color: var(--white);
+  color: var(--white-color);
 }
 
