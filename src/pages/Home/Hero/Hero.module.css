@@ -1,5 +1,5 @@
 .videoWrapper {
-  height: 85vh;
+  height: 90vh;
   position: relative;
 }
 
@@ -16,7 +16,6 @@
 .video {
   height: 100%;
   width: 100%;
-  position: relative;
   object-fit: cover;
 }
 
@@ -24,18 +23,18 @@
   width: 60%;
   position: absolute;
   z-index: 1;
-  bottom: 300px;
+  bottom: 200px;
   left: 100px;
 }
 
 .title {
   font-size: 90px;
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .description {
   font-weight: 300;
   font-size: 25px;
-  color: var(--white);
+  color: var(--white-color);
 }
 

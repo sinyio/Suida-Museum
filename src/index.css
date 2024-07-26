@@ -5,9 +5,10 @@
 
 :root {
   /* Palette */
-  --main: #0E0E0C;
-  --white: #FFFFFF;
-  --green: #C0CF24;
+  --main-color: #0E0E0C;
+  --white-color: #FFFFFF;
+  --green-color: #C0CF24;
+  --header-color: rgba(14, 14, 12, 0.3);
 }
 
 html {
@@ -34,7 +35,7 @@ h1 {
 }
 
 body {
-  background-color: var(--main);
+  background-color: var(--main-color);
   min-height: 100vh;
 }
 
@@ -44,4 +45,9 @@ main {
 
 ul {
   list-style: none;
+}
+
+.container {
+  padding: 0 100px;
+  margin: 0 auto;
 }
