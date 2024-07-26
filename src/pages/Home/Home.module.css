@@ -10,7 +10,7 @@
   width: 100%;
   height: 200px;
   content: '';
-  background-image: linear-gradient(to top, black, transparent);
+  background-image: linear-gradient(to top, var(--main), transparent);
 }
 
 .video {

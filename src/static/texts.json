@@ -5,6 +5,10 @@
             "collections": true,
             "online_tour": true,
             "about_us": true
+        },
+        "hero": {
+            "header": true,
+            "description": true
         }
     },
     "ru": {
@@ -13,6 +17,10 @@
             "collections": "коллекции",
             "online_tour": "онлайн тур",
             "about_us": "о нас"
+        },
+        "hero": {
+            "header": "Музей-усадьба Суйда",
+            "description": "Кстати, представители современных социальных резервов лишь добавляют фракционных разногласий и призваны к ответу."
         }
     },
     "en": {
@@ -21,6 +29,10 @@
             "collections": "collections",
             "online_tour": "online tour",
             "about_us": "about us"
+        },
+        "hero": {
+            "header": "Museum-estate Suida",
+            "description": "By the way, representatives of modern social reserves only add fractional disagreements and are called to account."
         }
     }
 }
