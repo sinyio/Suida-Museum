@@ -19,7 +19,7 @@ const Events: FC = () => {
   }, []);
 
   return (
-    <section>
+    <section className={styles.eventSection}>
       <h2 className={pagesCss.sectionTitle}>Мероприятия</h2>
       <ul className={styles.eventList}>
         {events.map((event) => (

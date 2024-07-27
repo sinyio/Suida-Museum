@@ -6,17 +6,17 @@ import collage from "../../../data/Collage-about.png";
 
 const About: FC = () => {
   return (
-    <section>
+    <section className={styles.aboutSection}>
       <div className={styles.wrapper}>
         <div className={styles.aboutLeft}>
           <h2 className={pagesCss.sectionTitle}>Усадьба Суйда</h2>
-          <p className={styles.description}>
+          <p className={pagesCss.description}>
             Музей-усадьба Суйда – это уникальный памятник истории и архитектуры,
             расположенный в живописной местности Ленинградской области. Здесь вы
             сможете узнать о жизни и быте русских дворян, окунуться в атмосферу
             прошлых веков и насладиться красотой окружающей природы.
           </p>
-          <Link className={styles.link} to="/about">
+          <Link className={pagesCss.link} to="/about">
             Узнать больше
           </Link>
         </div>

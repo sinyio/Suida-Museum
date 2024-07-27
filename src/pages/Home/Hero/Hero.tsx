@@ -1,6 +1,6 @@
 import { FC } from "react";
 import styles from "./Hero.module.css";
-import pagesCss from '../../Pages.module.css'
+import pagesCss from "../../Pages.module.css";
 import video from "../../../assets/Suida.mp4";
 
 const Hero: FC = () => {
@@ -9,8 +9,8 @@ const Hero: FC = () => {
       <div className={styles.heroWrapper}>
         <h1 className={styles.title}>Музей&minus;усадьба Суйда</h1>
         <p className={styles.description}>
-          Кстати, представители современных социальных резервов лишь добавляют
-          фракционных разногласий и призваны к ответу.
+          Добро пожаловать в музей-усадьбу Суйда – погрузитесь в атмосферу
+          дворянской жизни и откройте для себя историческое наследие России!
         </p>
       </div>
       <div className={styles.videoWrapper}>

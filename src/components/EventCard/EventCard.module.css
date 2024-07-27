@@ -1,7 +1,24 @@
 .eventCard {
-  position: relative;
   height: 630px;
+  flex-basis: 25%;
+  position: relative;
   overflow: hidden;
+  transition: 0.2s ease scale;
+  cursor: pointer;
+}
+
+.image {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s ease filter;
+}
+
+.eventCard:hover {
+  scale: 0.95;
+}
+
+.eventCard:hover .image {
+  filter: brightness(70%); 
 }
 
 .cardText {
@@ -15,6 +32,7 @@
   bottom: 0;
   text-align: center;
   background-color: var(--grey-color);
+  z-index: 1;
 }
 
 .title {

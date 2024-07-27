@@ -15,21 +15,31 @@ const Header: FC = () => {
       </Link>
       <nav>
         <ul className={styles.navList}>
-          <Link className={styles.link} to="/events">
-            {t("events")}
-          </Link>
-          <Link className={styles.link} to="/visit">
-            {t("visit")}
-          </Link>
-          <Link className={styles.link} to="/online-tour">
-            {t("online_tour")}
-          </Link>
-          <Link className={styles.link} to="/events">
-            {t("about")}
-          </Link>
-          <Link className={styles.link} to="/contact">
-            {t("contact")}
-          </Link>
+          <li>
+            <Link className={styles.link} to="/events">
+              {t("events")}
+            </Link>
+          </li>
+          <li>
+            <Link className={styles.link} to="/visit">
+              {t("visit")}
+            </Link>
+          </li>
+          <li>
+            <Link className={styles.link} to="/online-tour">
+              {t("online_tour")}
+            </Link>
+          </li>
+          <li>
+            <Link className={styles.link} to="/events">
+              {t("about")}
+            </Link>
+          </li>
+          <li>
+            <Link className={styles.link} to="/contact">
+              {t("contact")}
+            </Link>
+          </li>
         </ul>
       </nav>
       <LanguageSwitchButton />

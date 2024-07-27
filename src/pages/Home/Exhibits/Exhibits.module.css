@@ -8,15 +8,19 @@
   gap: 100px;
 }
 
-.description {
-  font-size: 25px;
-  line-height: 32px;
-  margin-bottom: 30px;
+.exhibitSection {
+  position: relative;
 }
 
-.link {
-  color: var(--green-color);
-  border-bottom: 1px solid var(--green-color);
-  font-size: 25px;
-  line-height: 32px;
+.exhibitSection::before {
+  content: '';
+  width: 88px;
+  height: 150px;
+  position: absolute;
+  background-image: url('src/data/circles.png');
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 300px;
+  right: 0;
 }

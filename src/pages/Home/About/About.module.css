@@ -4,33 +4,22 @@
   gap: 100px
 }
 
-.description {
-  font-size: 25px;
-  line-height: 32px;
-  margin-bottom: 30px;
-  opacity: 0.9;
-}
-
-.link {
-  color: var(--green-color);
-  border-bottom: 1px solid var(--green-color);
-  font-size: 25px;
-  line-height: 32px;
-}
-
 .aboutLeft {
   flex-basis: 60%;
+}
+
+.aboutSection {
   position: relative;
 }
 
-.aboutLeft::before {
+.aboutSection::before {
   content: '';
-  width: 125px;
+  width: 88px;
   height: 150px;
   position: absolute;
   background-image: url('src/data/circles.png');
   background-repeat: no-repeat;
   background-size: contain;
-  top: -20px;
-  left: -100px;
+  top: 330px;
+  left: 0;
 }

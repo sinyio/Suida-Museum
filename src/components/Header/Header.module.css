@@ -33,6 +33,22 @@
   font-family: "Cormorant Unicase", serif;
   color: var(--white-color);
   text-transform: uppercase;
+  position: relative;
+}
+
+.link::after {
+  content: '';
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: var(--white-color);
+  transition: 0.2s ease-out width;
+}
+
+.link:hover::after {
+  width: 100%;
 }
 
 .leftHeaderItem {
