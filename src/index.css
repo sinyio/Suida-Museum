@@ -9,10 +9,7 @@
   --white-color: #FFFFFF;
   --green-color: #C0CF24;
   --header-color: rgba(14, 14, 12, 0.3);
-}
-
-html {
-  font-size: 10px;
+  --footer-color: #1F1F1A;
 }
 
 #root {
@@ -29,14 +26,15 @@ html {
   box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3 {
+  display: inline-block;
   font-family: "Cormorant Unicase", serif;
   font-weight: 200;
 }
 
 body {
   background-color: var(--main-color);
-  min-height: 100vh;
+  color: var(--white-color);
 }
 
 main {
@@ -45,9 +43,4 @@ main {
 
 ul {
   list-style: none;
-}
-
-.container {
-  padding: 0 100px;
-  margin: 0 auto;
 }

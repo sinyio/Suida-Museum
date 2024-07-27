@@ -1,0 +1,22 @@
+.container section {
+  padding: 100px;
+  margin: 0 auto;
+}
+
+.container .heroSection {
+  padding: 0;
+}
+
+.sectionTitle {
+  font-size: 70px;
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  border-bottom: 2px solid var(--white-color);
+}

@@ -1,10 +1,11 @@
 import { FC } from "react";
 import styles from "./Hero.module.css";
+import pagesCss from '../../Pages.module.css'
 import video from "../../../assets/Suida.mp4";
 
 const Hero: FC = () => {
   return (
-    <section>
+    <section className={pagesCss.heroSection}>
       <div className={styles.heroWrapper}>
         <h1 className={styles.title}>Музей&minus;усадьба Суйда</h1>
         <p className={styles.description}>

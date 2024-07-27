@@ -10,7 +10,7 @@
   width: 100%;
   height: 200px;
   content: '';
-  background-image: linear-gradient(to top, var(--main), transparent);
+  background-image: linear-gradient(to top, var(--main-color), transparent);
 }
 
 .video {
@@ -29,7 +29,6 @@
 
 .title {
   font-size: 90px;
-  color: var(--white-color);
 }
 
 .description {
