@@ -1,21 +1,21 @@
-import { FC } from 'react'
-import styles from './LanguageSwitch.module.css'
-import { useLanguageStore } from '../../hooks/useTranslation/model'
+// import { FC } from 'react'
+// import styles from './LanguageSwitch.module.css'
+// import { useLanguageStore } from '../../hooks/useTranslation/model'
 
-const LanguageSwitch: FC = () => {
-  const { language, setLanguage } = useLanguageStore((state) => state)
+// const LanguageSwitch: FC = () => {
+//   const { language, setLanguage } = useLanguageStore((state) => state)
 
-  const handleClick = () => {
-    if (language === 'en') {
-        setLanguage('ru')
-    } else {
-        setLanguage('en')
-    }
-  }
+//   const handleClick = () => {
+//     if (language === 'en') {
+//         setLanguage('ru')
+//     } else {
+//         setLanguage('en')
+//     }
+//   }
 
-  return (
-    <div role="button" onClick={handleClick} className={styles.switch}>{language}</div>
-  )
-}
+//   return (
+//     <div role="button" onClick={handleClick} className={styles.switch}>{language}</div>
+//   )
+// }
 
-export default LanguageSwitch
+// export default LanguageSwitch
