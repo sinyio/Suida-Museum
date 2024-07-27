@@ -1,10 +1,11 @@
 {
   "ru": {
     "navigation": {
-      "tickets": "билеты",
-      "collections": "коллекции",
+      "visit": "экскурсии",
+      "events": "афиша",
       "online_tour": "онлайн тур",
-      "about_us": "о нас"
+      "about": "о музее",
+      "contact": "контакты"
     },
     "hero": {
       "header": "Музей-усадьба Суйда",
@@ -13,10 +14,11 @@
   },
   "en": {
     "navigation": {
-      "tickets": "tickets",
-      "collections": "collections",
+      "visit": "visit",
+      "events": "what's on",
       "online_tour": "online tour",
-      "about_us": "about us"
+      "about": "about us",
+      "contact": "contact"
     },
     "hero": {
       "header": "Museum-estate Suida",

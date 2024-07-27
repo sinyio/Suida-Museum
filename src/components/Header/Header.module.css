@@ -21,19 +21,27 @@
 
   li {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 26px;
     font-family: "Cormorant Unicase", serif;
     font-weight: 300;
     color: var(--white-color);
   }
 }
 
+.link {
+  font-size: 26px;
+  font-family: "Cormorant Unicase", serif;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
 .leftHeaderItem {
   width: 114px;
 }
 
-.rightHeaderItem div {
+.switchLanguageBtn {
   font-family: "Cormorant Unicase", serif;
   font-weight: 300;
+  font-size: 26px;
   color: var(--white-color);
 }

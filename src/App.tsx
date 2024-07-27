@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Layout } from "./components/Layout/Layout"
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
-import Contacts from "./pages/Contacts/Contacts"
+import Visit from "./pages/Visit/Visit"
 import OnlineTour from "./pages/OnlineTour/OnlineTour"
-
+import Events from "./pages/Events/Events"
 
 const App: FC = () => {
   return (
@@ -14,7 +14,9 @@ const App: FC = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/visit" element={<Visit />} />
+          <Route path="/online-tour" element={<OnlineTour />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/online-tour" element={<OnlineTour />} />
         </Routes> 
       </Layout>
