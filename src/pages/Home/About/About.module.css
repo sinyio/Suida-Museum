@@ -8,6 +8,10 @@
   flex-basis: 60%;
 }
 
+.aboutTitle {
+  margin-bottom: 15px;
+}
+
 .aboutSection {
   position: relative;
 }
@@ -17,9 +21,9 @@
   width: 88px;
   height: 150px;
   position: absolute;
-  background-image: url('src/data/circles.png');
+  background-image: url('src/assets/circles.png');
   background-repeat: no-repeat;
   background-size: contain;
-  top: 330px;
+  top: 310px;
   left: 0;
 }

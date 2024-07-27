@@ -28,11 +28,12 @@
 }
 
 .title {
-  font-size: 90px;
+  font-size: 100px;
 }
 
 .description {
   font-size: 25px;
   color: var(--white-color);
+  opacity: 0.9;
 }
 

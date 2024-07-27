@@ -9,7 +9,7 @@ const About: FC = () => {
     <section className={styles.aboutSection}>
       <div className={styles.wrapper}>
         <div className={styles.aboutLeft}>
-          <h2 className={pagesCss.sectionTitle}>Усадьба Суйда</h2>
+          <h2 className={`${pagesCss.sectionTitle} ${styles.aboutTitle}`}>Усадьба Суйда</h2>
           <p className={pagesCss.description}>
             Музей-усадьба Суйда – это уникальный памятник истории и архитектуры,
             расположенный в живописной местности Ленинградской области. Здесь вы

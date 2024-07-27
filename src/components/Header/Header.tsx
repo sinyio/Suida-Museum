@@ -31,7 +31,7 @@ const Header: FC = () => {
             </Link>
           </li>
           <li>
-            <Link className={styles.link} to="/events">
+            <Link className={styles.link} to="/about">
               {t("about")}
             </Link>
           </li>
@@ -42,7 +42,9 @@ const Header: FC = () => {
           </li>
         </ul>
       </nav>
-      <LanguageSwitchButton />
+      <div className={styles.switchBtn}>
+        <LanguageSwitchButton />
+      </div>
     </header>
   );
 };

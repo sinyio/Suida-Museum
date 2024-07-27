@@ -12,7 +12,7 @@
   width: 88px;
   height: 150px;
   position: absolute;
-  background-image: url('src/data/circles.png');
+  background-image: url('src/assets/circles.png');
   background-repeat: no-repeat;
   background-size: contain;
   top: 100px;

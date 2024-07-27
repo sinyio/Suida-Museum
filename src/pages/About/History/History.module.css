@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 75px;
+}
+
+.textBlock {
+  display: flex;
+  flex-basis: 56%;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.historySection {
+  position: relative;
+}
+
+.historySection::before {
+  content: '';
+  width: 88px;
+  height: 150px;
+  position: absolute;
+  background-image: url('src/assets/circles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 100px;
+  left: 0;
+}

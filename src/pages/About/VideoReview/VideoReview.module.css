@@ -1,0 +1,42 @@
+.videoReviewSection {
+  position: relative;
+}
+
+.videoReviewSection::before {
+  content: '';
+  width: 88px;
+  height: 150px;
+  position: absolute;
+  background-image: url('src/assets/circles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 100px;
+  left: 0;
+}
+
+.videoReviewSection::after {
+  content: '';
+  width: calc(100% - 200px);
+  position: absolute;
+  height: 1px;
+  background-color: var(--white-color);
+  top: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 75px;
+}
+
+.videoReviewRight {
+  flex-basis: 56%;
+}
+
+.videoReview {
+  width: 100%;
+  margin-bottom: 40px;
+}

@@ -36,7 +36,11 @@
   position: relative;
 }
 
-.link::after {
+.switchBtn {
+  position: relative;
+}
+
+.link::after, .switchBtn::after  {
   content: '';
   width: 0;
   position: absolute;
@@ -47,7 +51,7 @@
   transition: 0.2s ease-out width;
 }
 
-.link:hover::after {
+.link:hover::after, .switchBtn:hover::after {
   width: 100%;
 }
 

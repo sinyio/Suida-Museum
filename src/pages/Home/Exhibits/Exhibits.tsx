@@ -12,7 +12,7 @@ const Exhibits: FC = () => {
           <img src={collage} alt="Коллаж" />
         </div>
         <div className={styles.exhibitsLeft}>
-          <h2 className={pagesCss.sectionTitle}>Экспонаты музея</h2>
+          <h2 className={`${pagesCss.sectionTitle} ${styles.exhibitsTitle}`}>Экспонаты</h2>
           <p className={pagesCss.description}>
             В нашем музее представлены уникальные экспонаты, отражающие быт и
             культуру дворянской семьи. Среди них – антикварная мебель, редкие
