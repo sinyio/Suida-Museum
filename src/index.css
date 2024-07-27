@@ -1,6 +1,19 @@
 @font-face {
   font-family: 'Geist';
   src: url(./fonts/Geist/Geist-Thin.woff2);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url(./fonts/Geist/Geist-UltraLight.woff2);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url(./fonts/Geist/Geist-Light.woff2);
+  font-weight: 300;
 }
 
 :root {
@@ -8,8 +21,8 @@
   --main-color: #0E0E0C;
   --white-color: #FFFFFF;
   --green-color: #C0CF24;
-  --header-color: rgba(14, 14, 12, 0.3);
-  --footer-color: #1F1F1A;
+  --header-color: rgba(14, 14, 12, 0.9);
+  --grey-color: #1F1F1A;
 }
 
 #root {
@@ -23,10 +36,13 @@
   margin: 0;
   padding: 0;
   font-family: "Geist", serif;
+  font-weight: 100;
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   display: inline-block;
   font-family: "Cormorant Unicase", serif;
   font-weight: 200;
@@ -35,6 +51,7 @@ h1, h2, h3 {
 body {
   background-color: var(--main-color);
   color: var(--white-color);
+
 }
 
 main {
@@ -53,4 +70,8 @@ button {
 
 a {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
 }

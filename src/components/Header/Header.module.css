@@ -38,10 +38,3 @@
 .leftHeaderItem {
   width: 114px;
 }
-
-.switchLanguageBtn {
-  font-family: "Cormorant Unicase", serif;
-  font-weight: 300;
-  font-size: 26px;
-  color: var(--white-color);
-}

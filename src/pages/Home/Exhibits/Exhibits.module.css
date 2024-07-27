@@ -1,3 +1,22 @@
-.exhibitsRight {
-  width: 50%;
+.exhibitsLeft {
+  flex-basis: 60%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.description {
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.link {
+  color: var(--green-color);
+  border-bottom: 1px solid var(--green-color);
+  font-size: 25px;
+  line-height: 32px;
 }

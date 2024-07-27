@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Мастер класс",
+      "description": "Приглашаем вас и ваших близких пройти наш мастер класс по созданию вееров",
+      "img": "https://4.downloader.disk.yandex.ru/preview/f21e2e0134467ce461272317bf4ad3ca540f30ec0f7bd4906e890a649bc8affe/inf/UJOsLU_9CTN_nQ_rTpxryFVYed1wR3Dlq4qq4qkMiBS1XJHl9t7o6ws5MyVx9I6csN0h55yy_KsAoEsmxGS2Gg%3D%3D?uid=922346907&filename=event1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=922346907&tknv=v2&size=1920x956"
+    },
+    {
+      "id": 2,
+      "title": "Лекция “Жизнь в эпоху...”",
+      "description": "Мы постарались осветить для вас довольно большой исторический период жизнедеятельности Абрама Петровича Ганнибала.",
+      "img": "https://3.downloader.disk.yandex.ru/preview/24cbd2dae218207fc4c982fa59b246d03c7004bb8c7d2d242e029d823a766355/inf/058wg9-wj08Z_2he1yAlOFVYed1wR3Dlq4qq4qkMiBRynuW3GEPcJ--jZJufrhW3Get6R6fZowDIaJDNcovquw%3D%3D?uid=922346907&filename=event2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=922346907&tknv=v2&size=1920x956"
+    },
+    {
+      "id": 3,
+      "title": "День рождения Надежды Осиповны",
+      "description": "21 июня 1775 года на свет появилась Надежда Осиповна. Ей будет суждено стать матерью великого поэта  Александра...",
+      "img": "https://2.downloader.disk.yandex.ru/preview/5f525866d20d6c5a5da87009c93edfc1c3c627736ba5bec4a9241ec9bfac941c/inf/058wg9-wj08Z_2he1yAlOFVYed1wR3Dlq4qq4qkMiBQdOneWONpGP9ofcbfEL-CWjRNh6LApwo7O5wyUks5sCw%3D%3D?uid=922346907&filename=event3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=922346907&tknv=v2&size=1920x956"
+    },
+    {
+      "id": 4,
+      "title": "День воинской славы России",
+      "description": "«Поздравляю вас сим торжественным днем русского Воскресенья» - так написал Пётр I супруге Екатерине Алексеевне...",
+      "img": "https://1.downloader.disk.yandex.ru/preview/02e1ff999249ad6b1e33b571cb0203cf25dc256e00ff6f3b2c405a20242db1c8/inf/EcCtqUUGbxDmmNNPEsyEj1VYed1wR3Dlq4qq4qkMiBThlEl1tqWRqm3xdo0xj445avZSf-Wf5cB7sBaaVlUV3w%3D%3D?uid=922346907&filename=event4.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=922346907&tknv=v2&size=1920x956"
+    }
+  ]
+}
