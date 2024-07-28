@@ -29,7 +29,12 @@
   position: relative;
 }
 
+.switchBtnWrapper {
+  text-align: end;
+}
+
 .switchBtn {
+  display: inline-block;
   position: relative;
 }
 
@@ -48,6 +53,6 @@
   width: 100%;
 }
 
-.logo, .switchBtn {
+.logo, .switchBtnWrapper {
   width: 114px;
 }

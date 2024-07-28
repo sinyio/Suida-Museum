@@ -48,8 +48,10 @@ const Header: FC = () => {
           </li>
         </ul>
       </nav>
-      <div className={styles.switchBtn}>
-        <LanguageSwitchButton />
+      <div className={styles.switchBtnWrapper}>
+        <div className={styles.switchBtn}>
+          <LanguageSwitchButton />
+        </div>
       </div>
     </header>
   );
