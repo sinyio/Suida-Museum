@@ -3,14 +3,14 @@
   flex-basis: calc(25% - 21px);
   position: relative;
   overflow: hidden;
-  transition: 0.2s ease scale;
+  transition: 0.2s ease-out scale;
   cursor: pointer;
 }
 
 .image {
   height: 100%;
   object-fit: cover;
-  transition: 0.2s ease filter;
+  transition: 0.2s ease-out filter;
 }
 
 .eventCard:hover {

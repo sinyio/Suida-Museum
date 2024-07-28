@@ -1,0 +1,23 @@
+.linkWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 24px;
+  font-size: 25px;
+  color: var(--green-color);
+  background-color: var(--grey-color);
+  transition: 0.2s ease-out scale, 0.2s ease-out color, 0.2s ease-out width;
+}
+
+.link:hover {
+  width: 80%;
+  color: #98a31f;
+  scale: 0.97;
+}
