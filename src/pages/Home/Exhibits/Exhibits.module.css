@@ -17,14 +17,6 @@
 }
 
 .exhibitSection::before {
-  content: '';
-  width: 88px;
-  height: 150px;
-  position: absolute;
-  background-image: url('src/assets/circles.png');
-  transform: rotate(180deg);
-  background-repeat: no-repeat;
-  background-size: contain;
   top: 300px;
   right: 0;
 }
