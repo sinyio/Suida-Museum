@@ -24,7 +24,7 @@
   font-size: 75px;
 }
 
-.sectionTitleLeft::before {
+.sectionTitle::before {
   content: '';
   width: 88px;
   height: 150px;
@@ -36,22 +36,9 @@
   left: -100px
 }
 
-.sectionTitleRight::before {
-  content: '';
-  width: 88px;
-  height: 150px;
-  position: absolute;
-  background-image: url('../assets/circles.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: -30px;
-  right: -100px
-}
-
 .description {
   font-size: 25px;
   line-height: 32px;
-  margin-bottom: 30px;
   opacity: 0.9;
 }
 
@@ -71,7 +58,7 @@
   height: 1px;
   background-color: var(--green-color);
   transform-origin: right;
-  transition: 0.2s ease-out transform;
+  transition: 0.3s ease transform;
 }
 
 .link:hover::after {

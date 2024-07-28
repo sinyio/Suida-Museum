@@ -17,8 +17,8 @@
   left: -100px;
 }
 
-.aboutSection {
-  position: relative;
+.text {
+  margin-bottom: 30px;
 }
 
 /* .aboutSection::before {

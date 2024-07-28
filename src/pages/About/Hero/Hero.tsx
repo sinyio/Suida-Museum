@@ -1,6 +1,6 @@
 import styles from './Hero.module.css'
 import pagesCSS from '../../Pages.module.css'
-import image from '../../../assets/about.png'
+import image from '../../../assets/about.svg'
 
 const Hero = () => {
   return (

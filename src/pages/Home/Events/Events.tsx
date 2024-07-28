@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Events: FC = () => {
   return (
     <section>
-      <h2 className={`${pagesCss.sectionTitle} ${pagesCss.sectionTitleLeft}`}>
+      <h2 className={pagesCss.sectionTitle}>
         Мероприятия
       </h2>
       <EventList quantity={4} />

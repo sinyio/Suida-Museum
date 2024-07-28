@@ -5,7 +5,7 @@ const VideoReview = () => {
   return (
     <section className={styles.videoReviewSection}>
       <div className={styles.wrapper}>
-        <h2 className={`${pagesCSS.sectionTitle} ${pagesCSS.sectionTitleLeft}  ${styles.title}`}>Видео обзор</h2>
+        <h2 className={`${pagesCSS.sectionTitle}  ${styles.title}`}>Видео обзор</h2>
         <div className={styles.videoReviewRight}>
           <iframe className={styles.videoReview}
             height="542"

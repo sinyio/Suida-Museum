@@ -1,3 +1,53 @@
 .wrapper {
-  
+  display: flex;
+  padding: 60px;
+  background-color: var(--grey-color);
+  gap: 90px;
+}
+
+.visitLeft {
+  flex-basis: 40%;
+}
+
+.visitLeft img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.visitRight {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.innerTitle {
+  font-family: 'Geist';
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.addressBlock {
+  margin-bottom: 60px;
+}
+
+.warningBlock {
+  margin-top: aut;
+  margin-bottom: 30px;
+}
+
+.innerButton {
+  padding: 10px 65px;
+  font-size: 25px;
+  color: var(--main-color);
+  background-color: var(--green-color);
+  transition: 0.3s ease-out background-color;
+}
+
+.innerButton:hover {
+  background-color: #98a31f;
+}
+
+.innerButton:active{
+  background-color: #7a8319;
 }

@@ -11,3 +11,11 @@
 .title {
   margin-bottom: 15px;
 }
+
+.title::before {
+  content: none;
+}
+
+.text {
+  margin-bottom: 30px;
+}

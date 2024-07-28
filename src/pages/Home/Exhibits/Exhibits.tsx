@@ -12,10 +12,10 @@ const Exhibits: FC = () => {
           <img src={collage} alt="Коллаж" />
         </div>
         <div className={styles.exhibitsLeft}>
-          <h2 className={`${pagesCss.sectionTitle} ${pagesCss.sectionTitleRight} ${styles.title}`}>
+          <h2 className={`${pagesCss.sectionTitle} ${styles.title}`}>
             Экспонаты
           </h2>
-          <p className={pagesCss.description}>
+          <p className={`${pagesCss.description} ${styles.text}`}>
             В нашем музее представлены уникальные экспонаты, отражающие быт и
             культуру дворянской семьи. Среди них – антикварная мебель, редкие
             книги, предметы искусства и личные вещи владельцев усадьбы, которые
