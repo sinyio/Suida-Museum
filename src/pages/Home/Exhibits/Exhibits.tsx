@@ -3,8 +3,11 @@ import pagesCss from "../../Pages.module.css";
 import { FC } from "react";
 import { Link } from "react-router-dom";
 import collage from "../../../assets/Collage-exhibits.png";
+import { useTranslation } from "react-i18next";
 
 const Exhibits: FC = () => {
+  const { t } = useTranslation("mainPage")
+
   return (
     <section className={styles.exhibitSection}>
       <div className={styles.wrapper}>
@@ -13,16 +16,13 @@ const Exhibits: FC = () => {
         </div>
         <div className={styles.exhibitsLeft}>
           <h2 className={`${pagesCss.sectionTitle} ${styles.title}`}>
-            Экспонаты
+            {t("exhibits.title")}
           </h2>
           <p className={`${pagesCss.description} ${styles.text}`}>
-            В нашем музее представлены уникальные экспонаты, отражающие быт и
-            культуру дворянской семьи. Среди них – антикварная мебель, редкие
-            книги, предметы искусства и личные вещи владельцев усадьбы, которые
-            позволяют погрузиться в историю и почувствовать дух прошедших эпох.
+            {t("exhibits.description")}
           </p>
           <Link className={pagesCss.link} to="/exhibits">
-            Узнать больше
+          {t("exhibits.link")}
           </Link>
         </div>
       </div>

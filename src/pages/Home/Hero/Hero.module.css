@@ -1,5 +1,5 @@
 .videoWrapper {
-  height: 90vh;
+  height: 95vh;
   position: relative;
 }
 
@@ -16,14 +16,14 @@
 .video {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: none;
 }
 
 .heroWrapper {
   width: 60%;
   position: absolute;
   z-index: 1;
-  bottom: 200px;
+  bottom: 150px;
   left: 100px;
 }
 

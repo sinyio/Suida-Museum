@@ -7,9 +7,37 @@
       "about": "о музее",
       "contact": "контакты"
     },
-    "hero": {
-      "header": "Музей-усадьба Суйда",
-      "description": "Кстати, представители современных социальных резервов лишь добавляют фракционных разногласий и призваны к ответу."
+    "mainPage": {
+      "hero": {
+        "titleFirstPart": "Музей",
+        "titleSecondPart": "усадьба Суйда",
+        "description": "Добро пожаловать в музей-усадьбу Суйда – погрузитесь в атмосферу дворянской жизни и откройте для себя историческое наследие России!"
+      },
+      "about": {
+        "title": "Усадьба Суйда",
+        "description": "Музей-усадьба Суйда – это уникальный памятник истории и архитектуры, расположенный в живописной местности Ленинградской области. Здесь вы сможете узнать о жизни и быте русских дворян, окунуться в атмосферу прошлых веков и насладиться красотой окружающей природы.",
+        "link": "Узнать больше"
+      },
+      "events": {
+        "title": "Мероприятия",
+        "link": "Узнать больше"
+      },
+      "exhibits": {
+        "title": "Экспонаты",
+        "description": "В нашем музее представлены уникальные экспонаты, отражающие быт и культуру дворянской семьи. Среди них – антикварная мебель, редкие книги, предметы искусства и личные вещи владельцев усадьбы, которые позволяют погрузиться в историю и почувствовать дух прошедших эпох.",
+        "link": "Узнать больше"
+      },
+      "visit": {
+        "title": "Как попасть",
+        "addressTitle": "Адрес:",
+        "address": "Ленинградская область, Гатчинский район, посёлок Суйда, ул. Центральная, 1",
+        "scheduleTitle": "Режим работы:", 
+        "scheduleOpen": "Вт - Вс 10:00 - 17:00 (касса до 16:30)",
+        "scheduleClosed": "Пн - выходной",
+        "warningTitle": "Обратите внимание:",
+        "warning": "Заказ экскурсии по музею и территории усадьбы только по предварительной записи",
+        "buttonText": "Записаться"
+      }
     }
   },
   "en": {
@@ -20,9 +48,37 @@
       "about": "about us",
       "contact": "contact"
     },
-    "hero": {
-      "header": "Museum-estate Suida",
-      "description": "By the way, representatives of modern social reserves only add fractional disagreements and are called to account."
+    "mainPage": {
+      "hero": {
+        "titleFirstPart": "Museum",
+        "titleSecondPart": "estate Suida",
+        "description": "Welcome to the Suida Estate Museum – immerse yourself in the atmosphere of noble life and discover the historical heritage of Russia!"
+      },
+      "about": {
+        "title": "Suida Estate",
+        "description": "Museum-state Suidda is a unique historical and architectural monument located in the picturesque region of Leningrad Oblast. Here, you can learn about the life and lifestyle of Russian nobility, immerse yourself in the atmosphere of past centuries, and enjoy the beauty of the surrounding nature.",
+        "link": "Learn more"
+      },
+      "events": {
+        "title": "Events",
+        "link": "Learn more"
+      },
+      "exhibits": {
+        "title": "Exhibits",
+        "description": "Our museum features unique exhibits that reflect the life and culture of a noble family. Among them are antique furniture, rare books, works of art, and personal belongings of the estate owners, which allow visitors to immerse themselves in history and feel the spirit of past eras.",
+        "link": "Learn more"
+      },
+      "visit": {
+        "title": "Visit Us",
+        "addressTitle": "Address:",
+        "address": "Leningrad Region, Gatchina District, Suyda Village, Tsentralnaya Street, 1",
+        "scheduleTitle": "Schedule:", 
+        "scheduleOpen": "Tue - Sun 10:00 AM - 5:00 PM (ticket office until 4:30 PM)",
+        "scheduleClosed": "Mon - closed",
+        "warningTitle": "Please note:",
+        "warning": "Museum and estate tour reservations are only available by appointment",
+        "buttonText": "Book a Visit"
+      }
     }
   }
 }

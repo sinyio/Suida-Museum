@@ -3,21 +3,23 @@ import pagesCss from "../../Pages.module.css";
 import { FC } from "react";
 import { Link } from "react-router-dom";
 import collage from "../../../assets/Collage-about.png";
+import { useTranslation } from "react-i18next";
 
 const About: FC = () => {
+  const { t } = useTranslation("mainPage");
+
   return (
     <section className={styles.aboutSection}>
       <div className={styles.wrapper}>
         <div className={styles.aboutLeft}>
-          <h2 className={`${pagesCss.sectionTitle} ${styles.title}`}>Усадьба Суйда</h2>
+          <h2 className={`${pagesCss.sectionTitle} ${styles.title}`}>
+            {t("about.title")}
+          </h2>
           <p className={`${pagesCss.description} ${styles.text}`}>
-            Музей-усадьба Суйда – это уникальный памятник истории и архитектуры,
-            расположенный в живописной местности Ленинградской области. Здесь вы
-            сможете узнать о жизни и быте русских дворян, окунуться в атмосферу
-            прошлых веков и насладиться красотой окружающей природы.
+            {t("about.description")}
           </p>
           <Link className={pagesCss.link} to="/about">
-            Узнать больше
+            {t("about.link")}
           </Link>
         </div>
         <div className={styles.aboutRight}>

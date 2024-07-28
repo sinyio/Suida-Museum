@@ -2,16 +2,18 @@ import { FC } from "react";
 import styles from "./Hero.module.css";
 import pagesCss from "../../Pages.module.css";
 import video from "../../../assets/Suida.mp4";
+import { useTranslation } from "react-i18next";
 
 const Hero: FC = () => {
+  const { t } = useTranslation("mainPage");
+
   return (
     <section className={pagesCss.heroSection}>
       <div className={styles.heroWrapper}>
-        <h1 className={styles.title}>Музей&minus;усадьба Суйда</h1>
-        <p className={styles.description}>
-          Добро пожаловать в музей-усадьбу Суйда – погрузитесь в атмосферу
-          дворянской жизни и откройте для себя историческое наследие России!
-        </p>
+        <h1 className={styles.title}>{`${t("hero.titleFirstPart")}\u2212${t(
+          "hero.titleSecondPart"
+        )}`}</h1>
+        <p className={styles.description}>{t("hero.description")}</p>
       </div>
       <div className={styles.videoWrapper}>
         <video className={styles.video} src={video} muted autoPlay loop></video>
