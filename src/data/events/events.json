@@ -4,31 +4,36 @@
       "id": 1,
       "title": "Мастер класс",
       "description": "Приглашаем вас и ваших близких пройти наш мастер класс по созданию вееров",
-      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/Cz5Z/U3tQKWuPW"
+      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/Cz5Z/U3tQKWuPW",
+      "backdrop_image": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/Cz5Z/U3tQKWuPW"
     },
     {
       "id": 2,
       "title": "Лекция “Жизнь в эпоху...”",
       "description": "Мы постарались осветить для вас довольно большой исторический период жизнедеятельности Абрама Петровича Ганнибала.",
-      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/vdQQ/UY8D8yZ3s"
+      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/vdQQ/UY8D8yZ3s",
+      "backdrop_image": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/vdQQ/UY8D8yZ3s"
     },
     {
       "id": 3,
       "title": "День рождения Надежды Осиповны",
       "description": "21 июня 1775 года на свет появилась Надежда Осиповна. Ей будет суждено стать матерью великого поэта  Александра...",
-      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/aQzF/rCzDAkxQU"
+      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/aQzF/rCzDAkxQU",
+      "backdrop_image": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/aQzF/rCzDAkxQU"
     },
     {
       "id": 4,
       "title": "День воинской славы России",
       "description": "«Поздравляю вас сим торжественным днем русского Воскресенья» - так написал Пётр I супруге Екатерине Алексеевне...",
-      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/2V64/bRjthtna6"
+      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/2V64/bRjthtna6",
+      "backdrop_image": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/2V64/bRjthtna6"
     },
     {
       "id": 5,
       "title": "День воинской славы России",
       "description": "«Поздравляю вас сим торжественным днем русского Воскресенья» - так написал Пётр I супруге Екатерине Алексеевне...",
-      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/2V64/bRjthtna6"
+      "img": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/2V64/bRjthtna6",
+      "backdrop_image": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/2V64/bRjthtna6"
     }
   ]
 }

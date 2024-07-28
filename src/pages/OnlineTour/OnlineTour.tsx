@@ -1,6 +1,13 @@
+import pagesCSS from '../Pages.module.css'
+import Hero from './Hero/Hero'
+import Tours from './Tours/Tours'
+
 const OnlineTour = () => {
   return (
-    <div>OnlineTour</div>
+    <main className={pagesCSS.container}>
+      <Hero />
+      <Tours />
+    </main>
   )
 }
 

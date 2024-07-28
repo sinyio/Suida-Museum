@@ -13,7 +13,7 @@ const Events: FC = () => {
       <h2 className={pagesCss.sectionTitle}>
         {t("events.title")}
       </h2>
-      <EventList quantity={4} />
+      <EventList quantity={4} showDescription={true}/>
       <div className={styles.linkWrapper}>
         <Link className={styles.link} to="/events">
         {t("events.link")}

@@ -1,9 +1,10 @@
 import styles from "./History.module.css";
 import pagesCSS from '../../Pages.module.css'
+import { FC } from "react";
 
-const History = () => {
+const History: FC = () => {
   return (
-    <section className={styles.historySection}>
+    <section>
       <div className={styles.wrapper}>
         <h2 className={`${pagesCSS.sectionTitle} ${styles.title}`}>История усадьбы</h2>
         <div className={styles.textBlock}>

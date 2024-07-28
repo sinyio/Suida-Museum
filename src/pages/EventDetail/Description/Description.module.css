@@ -1,0 +1,15 @@
+.descriptionWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 44%;
+}
+
+.textBlock {
+  display: flex;
+  flex-basis: 56%;
+  flex-direction: column;
+  gap: 25px;
+}

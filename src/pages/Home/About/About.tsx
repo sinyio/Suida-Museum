@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 import pagesCss from "../../Pages.module.css";
 import { FC } from "react";
 import { Link } from "react-router-dom";
-import collage from "../../../assets/Collage-about.png";
+import collage from "../../../assets/collages/Collage-about.png";
 import { useTranslation } from "react-i18next";
 
 const About: FC = () => {

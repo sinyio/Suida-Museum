@@ -12,9 +12,10 @@ type Event = {
 
 interface IEventList {
   quantity: number;
+  showDescription: boolean
 }
 
-const EventList: FC<IEventList> = ({ quantity }) => {
+const EventList: FC<IEventList> = ({ quantity, showDescription }) => {
   const [events, setEvents] = useState<Event[]>([]);
 
   useEffect(() => {
@@ -26,9 +27,11 @@ const EventList: FC<IEventList> = ({ quantity }) => {
       {events.slice(0, quantity).map((event) => (
         <EventCard
           key={event.id}
+          id={event.id}
           title={event.title}
           description={event.description}
           img={event.img}
+          showDescription={showDescription}
         />
       ))}
     </ul>

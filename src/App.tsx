@@ -8,6 +8,7 @@ import OnlineTour from "./pages/OnlineTour/OnlineTour";
 import Events from "./pages/Events/Events";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Exhibits from "./pages/Exhibits/Exhibits";
+import EventDetail from "./pages/EventDetail/EventDetail";
 
 const App: FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: FC = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/events/:id" element={<EventDetail />} />
           <Route path="/visit" element={<Visit />} />
           <Route path="/online-tour" element={<OnlineTour />} />
           <Route path="/about" element={<About />} />     

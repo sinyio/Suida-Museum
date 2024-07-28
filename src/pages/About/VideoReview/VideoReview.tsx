@@ -1,7 +1,8 @@
 import styles from "./VideoReview.module.css";
 import pagesCSS from "../../Pages.module.css";
+import { FC } from "react";
 
-const VideoReview = () => {
+const VideoReview: FC = () => {
   return (
     <section className={styles.videoReviewSection}>
       <div className={styles.wrapper}>

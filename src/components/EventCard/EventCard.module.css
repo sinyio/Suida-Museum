@@ -4,6 +4,7 @@
   position: relative;
   overflow: hidden;
   transition: 0.3s ease-out scale;
+
   cursor: pointer;
 }
 
@@ -44,4 +45,16 @@
 .description {
   font-size: 25px;
   opacity: 0.9;
+}
+
+.link {
+  color: var(--white-color);
+}
+
+.eventCardWithoutDescr {
+  height: 500px;
+}
+
+.eventCardWithoutDescr .cardText {
+  height: 30%;
 }

@@ -1,8 +1,9 @@
 import { FC } from "react";
-import styles from "./Header.module.css";
-import logo from "../../assets/suida_logo.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
+import logo from "../../assets/suida_logo.png";
+
 import LanguageSwitchButton from "../LanguageSwitchButton/LanguageSwitchButton";
 
 const Header: FC = () => {
@@ -11,7 +12,12 @@ const Header: FC = () => {
   return (
     <header className={styles.header}>
       <Link to="/">
-        <img src={logo} aria-hidden="true" className={styles.leftHeaderItem} />
+        <img
+          className={styles.logo}
+          src={logo}
+          alt="Логотип"
+          aria-hidden="true"
+        />
       </Link>
       <nav>
         <ul className={styles.navList}>

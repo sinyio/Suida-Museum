@@ -37,6 +37,13 @@
         "warningTitle": "Обратите внимание:",
         "warning": "Заказ экскурсии по музею и территории усадьбы только по предварительной записи",
         "buttonText": "Записаться"
+      },
+      "footer": {
+        "contactTitle": "Конткаты",
+        "contactName": "Жирнова Надежда Александровна - Заведующий музеем",
+        "contactEmail": "Е-mail: ",
+        "contactPhone": "Тел: ",
+        "socialTitle": "Соцсети"
       }
     }
   },
@@ -51,12 +58,12 @@
     "mainPage": {
       "hero": {
         "titleFirstPart": "Museum",
-        "titleSecondPart": "estate Suida",
-        "description": "Welcome to the Suida Estate Museum – immerse yourself in the atmosphere of noble life and discover the historical heritage of Russia!"
+        "titleSecondPart": "estate Suyda",
+        "description": "Welcome to the Suyda Estate Museum – immerse yourself in the atmosphere of noble life and discover the historical heritage of Russia!"
       },
       "about": {
-        "title": "Suida Estate",
-        "description": "Museum-state Suidda is a unique historical and architectural monument located in the picturesque region of Leningrad Oblast. Here, you can learn about the life and lifestyle of Russian nobility, immerse yourself in the atmosphere of past centuries, and enjoy the beauty of the surrounding nature.",
+        "title": "Suyda Estate",
+        "description": "Museum-state Suyda is a unique historical and architectural monument located in the picturesque region of Leningrad Oblast. Here, you can learn about the life and lifestyle of Russian nobility, immerse yourself in the atmosphere of past centuries, and enjoy the beauty of the surrounding nature.",
         "link": "Learn more"
       },
       "events": {
@@ -78,6 +85,13 @@
         "warningTitle": "Please note:",
         "warning": "Museum and estate tour reservations are only available by appointment",
         "buttonText": "Book a Visit"
+      },
+      "footer": {
+        "contactTitle": "Contacts",
+        "contactName": "Nadezhda Alexandrovna Zhirnova - Museum Director",
+        "contactEmail": "Email: ",
+        "contactPhone": "Phone: ",
+        "socialTitle": "Social Media"
       }
     }
   }

@@ -2,7 +2,7 @@ import styles from "./Exhibits.module.css";
 import pagesCss from "../../Pages.module.css";
 import { FC } from "react";
 import { Link } from "react-router-dom";
-import collage from "../../../assets/Collage-exhibits.png";
+import collage from "../../../assets/collages/Collage-exhibits.png";
 import { useTranslation } from "react-i18next";
 
 const Exhibits: FC = () => {

@@ -1,20 +1,39 @@
 import { FC } from "react";
 import styles from "./EventCard.module.css";
+import { Link } from "react-router-dom";
 
 interface IEventCard {
+  id: number;
   title: string;
   description: string;
   img: string;
+  showDescription: boolean;
 }
 
-const EventCard: FC<IEventCard> = ({ title, description, img }) => {
+const EventCard: FC<IEventCard> = ({
+  id,
+  title,
+  description,
+  img,
+  showDescription,
+}) => {
   return (
-    <li className={styles.eventCard}>
-      <img className={styles.image} src={img} alt="Событие" />
-      <div className={styles.cardText}>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description.slice(0, 60)}</p>
-      </div>
+    <li
+      className={
+        showDescription
+          ? `${styles.eventCard}`
+          : `${styles.eventCard} ${styles.eventCardWithoutDescr}`
+      }
+    >
+      <Link className={styles.link} to={`/events/${id}`}>
+        <img className={styles.image} src={img} alt="Событие" />
+        <div className={styles.cardText}>
+          <h3 className={styles.title}>{title}</h3>
+          {showDescription ? (
+            <p className={styles.description}>{description.slice(0, 60)}</p>
+          ) : null}
+        </div>
+      </Link>
     </li>
   );
 };
