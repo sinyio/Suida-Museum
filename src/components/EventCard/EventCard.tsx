@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styles from "./EventCard.module.css";
 
-export interface IEventCard {
+interface IEventCard {
   title: string;
   description: string;
   img: string;

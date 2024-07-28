@@ -2,11 +2,6 @@
   position: relative;
 }
 
-.videoReviewSection::before {
-  top: 100px;
-  left: 0;
-}
-
 .videoReviewSection::after {
   content: '';
   width: calc(100% - 200px);
@@ -22,8 +17,9 @@
 }
 
 .title {
-  font-size: 75px;
+  width: 44%;
 }
+
 
 .videoReviewRight {
   flex-basis: 56%;

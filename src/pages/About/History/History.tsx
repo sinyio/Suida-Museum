@@ -5,7 +5,7 @@ const History = () => {
   return (
     <section className={styles.historySection}>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>История усадьбы</h2>
+        <h2 className={`${pagesCSS.sectionTitle} ${pagesCSS.sectionTitleLeft} ${styles.title}`}>История усадьбы</h2>
         <div className={styles.textBlock}>
           <p className={pagesCSS.description}>
             «Су́йда» — музей-усадьба в посёлке Суйда Гатчинского района

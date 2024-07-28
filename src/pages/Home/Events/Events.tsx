@@ -1,36 +1,15 @@
 import styles from "./Events.module.css";
 import pagesCss from "../../Pages.module.css";
-import { FC, useEffect, useState } from "react";
-import data from "../../../data/events/events.json";
-import EventCard from "../../../components/EventCard/EventCard";
-
-type Event = {
-  id: number;
-  title: string;
-  description: string;
-  img: string
-};
+import { FC } from "react";
+import EventList from "../../../components/EventList/EventList";
 
 const Events: FC = () => {
-  const [events, setEvents] = useState<Event[]>([]);
-
-  useEffect(() => {
-    setEvents(data.events);
-  }, []);
-
   return (
     <section className={styles.eventSection}>
-      <h2 className={pagesCss.sectionTitle}>Мероприятия</h2>
-      <ul className={styles.eventList}>
-        {events.map((event) => (
-          <EventCard
-            key={event.id}
-            title={event.title}
-            description={event.description}
-            img={event.img}
-          />
-        ))}
-      </ul>
+      <h2 className={`${pagesCss.sectionTitle} ${pagesCss.sectionTitleLeft}`}>
+        Мероприятия
+      </h2>
+      <EventList quantity={4} />
     </section>
   );
 };

@@ -4,7 +4,7 @@
 }
 
 .title {
-  font-size: 75px;
+  width: 44%;
 }
 
 .textBlock {
@@ -12,13 +12,4 @@
   flex-basis: 56%;
   flex-direction: column;
   gap: 25px;
-}
-
-.historySection {
-  position: relative;
-}
-
-.historySection::before {
-  top: 100px;
-  left: 0;
 }

@@ -12,7 +12,7 @@ const Exhibits: FC = () => {
           <img src={collage} alt="Коллаж" />
         </div>
         <div className={styles.exhibitsLeft}>
-          <h2 className={`${pagesCss.sectionTitle} ${styles.exhibitsTitle}`}>
+          <h2 className={`${pagesCss.sectionTitle} ${pagesCss.sectionTitleRight} ${styles.title}`}>
             Экспонаты
           </h2>
           <p className={pagesCss.description}>

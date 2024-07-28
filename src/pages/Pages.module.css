@@ -7,7 +7,11 @@
   padding: 0 0 80px 0;
 }
 
-.container section::before {
+.pageTitle {
+  
+}
+
+/* .container section::before {
   content: '';
   width: 88px;
   height: 150px;
@@ -15,12 +19,37 @@
   background-image: url('../assets/circles.png');
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 .sectionTitle {
   position: relative;
+  width: 100%;
   margin-bottom: 25px;
   font-size: 75px;
+}
+
+.sectionTitleLeft::before {
+  content: '';
+  width: 88px;
+  height: 150px;
+  position: absolute;
+  background-image: url('../assets/circles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -30px;
+  left: -100px
+}
+
+.sectionTitleRight::before {
+  content: '';
+  width: 88px;
+  height: 150px;
+  position: absolute;
+  background-image: url('../assets/circles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -30px;
+  right: -100px
 }
 
 .description {

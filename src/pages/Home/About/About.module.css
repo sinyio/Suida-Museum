@@ -8,15 +8,20 @@
   flex-basis: 60%;
 }
 
-.aboutTitle {
+.title {
   margin-bottom: 15px;
+}
+
+.title::before {
+  top: -30px;
+  left: -100px;
 }
 
 .aboutSection {
   position: relative;
 }
 
-.aboutSection::before {
+/* .aboutSection::before {
   top: 310px;
   left: 0;
-}
+} */

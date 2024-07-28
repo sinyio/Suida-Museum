@@ -8,15 +8,6 @@
   gap: 100px;
 }
 
-.exhibitsTitle {
+.title {
   margin-bottom: 15px;
-}
-
-.exhibitSection {
-  position: relative;
-}
-
-.exhibitSection::before {
-  top: 300px;
-  right: 0;
 }
