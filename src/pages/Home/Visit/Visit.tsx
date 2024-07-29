@@ -4,7 +4,7 @@ import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import { YMaps, Map, Placemark } from "react-yandex-maps";
 
-const apiKey = import.meta.env.VITE_REACT_APP_YANDEX_MAPS_API_KEY;
+const apiKey = "3092b1b4-4881-49b3-b087-441b51c69d55";
 
 const Visit: FC = () => {
   const { t } = useTranslation("mainPage");
