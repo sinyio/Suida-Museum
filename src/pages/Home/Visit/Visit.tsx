@@ -2,9 +2,6 @@ import styles from "./Visit.module.css";
 import pagesCss from "../../Pages.module.css";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { YMaps, Map, Placemark } from "react-yandex-maps";
-
-const apiKey = "3092b1b4-4881-49b3-b087-441b51c69d55";
 
 const Visit: FC = () => {
   const { t } = useTranslation("mainPage");
@@ -14,15 +11,6 @@ const Visit: FC = () => {
       <h2 className={pagesCss.sectionTitle}>{t("visit.title")}</h2>
       <div className={styles.wrapper}>
         <div className={styles.visitLeft}>
-          <YMaps query={{ apikey: apiKey }}>
-            <Map
-              defaultState={{ center: [59.466102, 30.124931], zoom: 15 }}
-              height="100%"
-              width="100%"
-            >
-              <Placemark geometry={[59.466102, 30.124931]} />
-            </Map>
-          </YMaps>
         </div>
         <div className={styles.visitRight}>
           <div className={styles.rightTopWrapper}>
