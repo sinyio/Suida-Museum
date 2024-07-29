@@ -10,14 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
     "i18next": "^23.12.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.52.1",
     "react-i18next": "^15.0.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.25.0",
-    "react-yandex-maps": "^4.6.0",
     "zustand": "^4.5.4"
   },
   "devDependencies": {

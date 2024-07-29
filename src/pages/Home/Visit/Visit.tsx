@@ -2,7 +2,7 @@ import styles from "./Visit.module.css";
 import pagesCss from "../../Pages.module.css";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { YMaps, Map, Placemark } from "react-yandex-maps";
+import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
 const apiKey = import.meta.env.VITE_REACT_APP_YANDEX_MAPS_API_KEY;
 
