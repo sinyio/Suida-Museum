@@ -7,8 +7,8 @@ import Visit from "./pages/Visit/Visit";
 import OnlineTour from "./pages/OnlineTour/OnlineTour";
 import Events from "./pages/Events/Events";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import Exhibits from "./pages/Exhibits/Exhibits";
 import EventDetail from "./pages/EventDetail/EventDetail";
+import ExhibitsPage from "./pages/ExhibitsPage/ExhibitsPage";
 
 const App: FC = () => {
   return (
@@ -22,7 +22,7 @@ const App: FC = () => {
           <Route path="/visit" element={<Visit />} />
           <Route path="/online-tour" element={<OnlineTour />} />
           <Route path="/about" element={<About />} />     
-          <Route path="/exhibits" element={<Exhibits />} />
+          <Route path="/exhibits" element={<ExhibitsPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

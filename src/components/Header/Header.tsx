@@ -42,8 +42,8 @@ const Header: FC = () => {
             </Link>
           </li>
           <li>
-            <Link className={styles.link} to="/contact">
-              {t("contact")}
+            <Link className={styles.link} to="/exhibits">
+              {t("exhibits")}
             </Link>
           </li>
         </ul>

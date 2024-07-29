@@ -7,7 +7,7 @@ const Hero: FC = () => {
   const event = useEventStore((state) => state.event);
 
   return (
-    <section className={pagesCSS.heroSection}>
+    <section className={`${pagesCSS.heroSection} ${styles.eventDetailHeroSection}`}>
       <h1 className={`${pagesCSS.mainTitle} ${styles.title}`}>{event.title}</h1>
       <div className={styles.wrapper}>
         <img

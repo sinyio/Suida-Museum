@@ -5,7 +5,7 @@
       "events": "афиша",
       "online_tour": "онлайн тур",
       "about": "о музее",
-      "contact": "контакты"
+      "exhibits": "экспонаты"
     },
     "mainPage": {
       "hero": {
@@ -52,7 +52,7 @@
       "events": "what's on",
       "online_tour": "online tour",
       "about": "about us",
-      "contact": "contact"
+      "exhibits": "exhibits"
     },
     "mainPage": {
       "hero": {

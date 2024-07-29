@@ -1,10 +1,11 @@
-.exhibitsLeft {
-  flex-basis: 60%;
+.exhibitsLeft, .exhibitsRight {
+  flex-basis: 50%;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 100px;
 }
 

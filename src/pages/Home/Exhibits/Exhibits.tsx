@@ -11,10 +11,10 @@ const Exhibits: FC = () => {
   return (
     <section className={styles.exhibitSection}>
       <div className={styles.wrapper}>
-        <div className={styles.exhibitsRight}>
+        <div className={styles.exhibitsLeft}>
           <img src={collage} alt="Коллаж" />
         </div>
-        <div className={styles.exhibitsLeft}>
+        <div className={styles.exhibitsRight}>
           <h2 className={`${pagesCss.sectionTitle} ${styles.title}`}>
             {t("exhibits.title")}
           </h2>

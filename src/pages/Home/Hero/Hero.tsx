@@ -8,7 +8,7 @@ const Hero: FC = () => {
   const { t } = useTranslation("mainPage");
 
   return (
-    <section className={pagesCss.heroSection}>
+    <section className={`${pagesCss.heroSection} ${styles.mainHeroSection}`}>
       <div className={styles.heroWrapper}>
         <h1 className={styles.title}>{t("hero.title")}</h1>
         <p className={styles.description}>{t("hero.description")}</p>

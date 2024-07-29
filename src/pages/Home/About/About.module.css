@@ -1,27 +1,18 @@
 .wrapper {
   display: flex;
   align-items: center;
-  gap: 100px
+  justify-content: space-between;
+  gap: 100px;
 }
 
-.aboutLeft {
-  flex-basis: 60%;
+.aboutLeft, .aboutRight  {
+  flex-basis: 50%;
 }
 
 .title {
   margin-bottom: 15px;
 }
 
-.title::before {
-  top: -30px;
-  left: -100px;
-}
-
 .text {
   margin-bottom: 30px;
 }
-
-/* .aboutSection::before {
-  top: 310px;
-  left: 0;
-} */

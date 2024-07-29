@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.wrapper:not(:first-child) {
+  padding-top: 130px;
+}
+
+.wrapper:not(:last-child) {
+  padding-bottom: 130px;
+}
+
+.exhibitsLeft,
+.exhibitsRight {
+  flex-basis: 50%;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.title::before {
+  content: none
+}
