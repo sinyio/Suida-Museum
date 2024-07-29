@@ -3,7 +3,7 @@ import styles from "./EventCard.module.css";
 import { Link } from "react-router-dom";
 
 interface IEventCard {
-  id: number;
+  id: string;
   title: string;
   description: string;
   img: string;
@@ -30,7 +30,7 @@ const EventCard: FC<IEventCard> = ({
         <div className={styles.cardText}>
           <h3 className={styles.title}>{title}</h3>
           {showDescription ? (
-            <p className={styles.description}>{description.slice(0, 60)}</p>
+            <p className={styles.description}>{description.slice(0, 60) + ' . . .'}</p>
           ) : null}
         </div>
       </Link>

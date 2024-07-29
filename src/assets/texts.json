@@ -9,8 +9,7 @@
     },
     "mainPage": {
       "hero": {
-        "titleFirstPart": "Музей",
-        "titleSecondPart": "усадьба Суйда",
+        "title": "Музей-усадьба Суйда",
         "description": "Добро пожаловать в музей-усадьбу Суйда – погрузитесь в атмосферу дворянской жизни и откройте для себя историческое наследие России!"
       },
       "about": {
@@ -19,8 +18,8 @@
         "link": "Узнать больше"
       },
       "events": {
-        "title": "Мероприятия",
-        "link": "Узнать больше"
+        "title": "События",
+        "link": "Смотреть все"
       },
       "exhibits": {
         "title": "Экспонаты",
@@ -57,8 +56,7 @@
     },
     "mainPage": {
       "hero": {
-        "titleFirstPart": "Museum",
-        "titleSecondPart": "estate Suyda",
+        "title": "Suyda Estate Museum",
         "description": "Welcome to the Suyda Estate Museum – immerse yourself in the atmosphere of noble life and discover the historical heritage of Russia!"
       },
       "about": {
@@ -68,7 +66,7 @@
       },
       "events": {
         "title": "Events",
-        "link": "Learn more"
+        "link": "View all"
       },
       "exhibits": {
         "title": "Exhibits",

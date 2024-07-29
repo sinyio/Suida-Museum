@@ -4,7 +4,6 @@
   position: relative;
   overflow: hidden;
   transition: 0.3s ease-out scale;
-
   cursor: pointer;
 }
 
@@ -15,11 +14,11 @@
 }
 
 .eventCard:hover {
-  scale: 0.95;
+  scale: 0.97;
 }
 
 .eventCard:hover .image {
-  filter: brightness(60%);
+  filter: brightness(70%);
 }
 
 .cardText {

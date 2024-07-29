@@ -8,9 +8,10 @@ interface LanguageStoreState {
 
 export const useEventStore = create<LanguageStoreState>((set) => ({
   event: {
-    id: 0,
+    id: "",
     title: "",
-    description: "",
+    full_description: "",
+    date: "",
     backdrop_image: "",
   },
   setEvent: (event) => set({ event }),

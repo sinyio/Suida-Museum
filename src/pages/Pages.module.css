@@ -1,10 +1,11 @@
 .container section {
   padding: 130px 100px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .container .heroSection {
-  padding: 0 0 80px 0;
+  padding: 0;
 }
 
 .sectionTitle {
@@ -56,14 +57,22 @@
 
 .backgroundImage {
   position: relative;
-  height: 95vh;
+  height: 110vh;
   object-fit: none;
 }
 
 .mainTitle {
   position: absolute;
   font-size: 100px;
-  bottom: 200px;
+  bottom: 120px;
   left: 100px;
   z-index: 1;
+}
+
+.buttonLink {
+  font-family: 'Montserrat', serif;
+  font-size: 25px;
+  color: var(--white-color);
+  background-color: var(--green-color);
+  transition: 0.3s ease-out background-color;
 }

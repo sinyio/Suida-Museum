@@ -1,4 +1,4 @@
-import image from "../../../assets/events.svg";
+import image from "../../../assets/backdrops/online_tour.svg";
 import pagesCSS from "../../Pages.module.css";
 
 const Hero = () => {

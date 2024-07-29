@@ -1,0 +1,56 @@
+.tourCard {
+  padding: 100px 120px;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 30px;
+  color: var(--white-color);
+  background-color: var(--grey-color);
+}
+
+.textWrapper {
+  flex-basis: 50%;
+}
+
+.title {
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 25px;
+}
+
+.imageWrapper {
+  width: 554px;
+  height: 100%;
+}
+
+.imageWrapper:hover .image {
+  filter: brightness(80%);
+}
+
+.imageWrapper:hover .startButton {
+  background-color: var(--hover-color);
+}
+
+.image {
+  height: 100%;
+  transition: 0.3s ease-out filter
+}
+
+.imageInnerWrapper {
+  height: 100%;
+  position: relative;
+}
+
+.startButton {
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+}
+

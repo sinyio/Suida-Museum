@@ -6,7 +6,8 @@
 }
 
 .visitLeft {
-  flex-basis: 40%;
+  width: 580px;
+  height: 580px;
 }
 
 .visitLeft img {
@@ -37,17 +38,13 @@
 }
 
 .innerButton {
-  padding: 10px 65px;
-  font-size: 25px;
-  color: var(--main-color);
-  background-color: var(--green-color);
-  transition: 0.3s ease-out background-color;
+  padding: 15px 55px;
 }
 
 .innerButton:hover {
-  background-color: #98a31f;
+  background-color: var(--hover-color);
 }
 
-.innerButton:active{
-  background-color: #7a8319;
+.innerButton:active {
+  background-color: var(--active-color);
 }

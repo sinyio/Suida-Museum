@@ -3,7 +3,6 @@ import styles from "./Footer.module.css";
 import logo from "../../assets/suida_logo.png";
 import VKLogo from "../../assets/socials/VK.svg";
 import TelegramLogo from "../../assets/socials/Telegram.svg";
-import YoutubeLogo from "../../assets/socials/Youtube.svg";
 import copyright from "../../assets/copyright.svg";
 import { useTranslation } from "react-i18next";
 
@@ -49,15 +48,6 @@ export const Footer: FC = () => {
                   className={styles.socialsIcon}
                   src={TelegramLogo}
                   alt="Telegram"
-                />
-              </a>
-            </li>
-            <li className={styles.socialsItem}>
-              <a href="">
-                <img
-                  className={styles.socialsIcon}
-                  src={YoutubeLogo}
-                  alt="Youtube"
                 />
               </a>
             </li>

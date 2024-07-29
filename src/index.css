@@ -20,9 +20,11 @@
   /* Palette */
   --main-color: #0E0E0C;
   --white-color: #FFFFFF;
-  --green-color: #C0CF24;
+  --green-color: #B0BD21;
   --header-color: rgba(14, 14, 12, 0.9);
   --grey-color: #1F1F1A;
+  --hover-color: #95a01b;
+  --active-color: #6c7415;
 }
 
 #root {
@@ -51,7 +53,6 @@ h3 {
 body {
   background-color: var(--main-color);
   color: var(--white-color);
-
 }
 
 main {

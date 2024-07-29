@@ -4,7 +4,7 @@ import data from "../../data/events/events.json";
 import EventCard from "../EventCard/EventCard";
 
 type Event = {
-  id: number;
+  id: string;
   title: string;
   description: string;
   img: string;

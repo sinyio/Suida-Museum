@@ -8,11 +8,11 @@ import Description from "./Description/Description";
 import Date from "./Date/Date";
 import MoreEvents from "./MoreEvents/MoreEvents";
 
-
 export interface IEventDetail {
-  id: number;
+  id: string;
   title: string;
-  description: string;
+  full_description: string;
+  date?: string;
   backdrop_image: string;
 }
 
@@ -22,15 +22,15 @@ const EventDetail: FC = () => {
   const { id } = useParams<{ id: string }>();
 
   useEffect(() => {
-    const currentEvent = data.events.find((event) => event.id === Number(id));
+    const currentEvent = data.events.find((event) => event.id === id);
     if (currentEvent) {
-      const eventDetail: IEventDetail = {
+      setEvent({
         id: currentEvent.id,
         title: currentEvent.title,
-        description: currentEvent.description,
+        full_description: currentEvent.full_description,
+        date: currentEvent.date,
         backdrop_image: currentEvent.backdrop_image,
-      };
-      setEvent(eventDetail);
+      });
     }
   }, [id, setEvent]);
 
