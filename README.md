@@ -35,11 +35,5 @@
 3. Запустите проект с помощью npm run dev.
 4. Откройте браузер и перейдите на http://localhost:5173 для просмотра сайта.
 
-## Команда
-
-1. Анастасия Бородкина - Product manager
-2. Максим Матвеев - UI/UX designer
-3. Илья Синякин - Frontend developer
-4. Дмитрий Смотряев - Frontend developer
 
 
