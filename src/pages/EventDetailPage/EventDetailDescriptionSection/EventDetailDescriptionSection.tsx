@@ -12,7 +12,7 @@ const EventDetailDescriptionSection: FC = () => {
         <h2 className={`${pagesCSS.sectionTitle} ${styles.title}`}>Описание</h2>
         <div className={styles.textBlock}>
           <p className={pagesCSS.description}>
-            {event.full_description.split("\n").map((line: string, index: string) => (
+            {event.full_description.split("\n").map((line: string, index: number) => (
               <span key={index}>
                 {line}
                 <br />

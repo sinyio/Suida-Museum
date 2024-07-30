@@ -1,5 +1,5 @@
 import create from "zustand";
-import { IEventDetail } from "../pages/EventDetail/EventDetail";
+import { IEventDetail } from "../pages/EventDetailPage/EventDetailPage";
 
 interface LanguageStoreState {
   event: IEventDetail;
