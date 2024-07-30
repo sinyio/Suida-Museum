@@ -4,6 +4,13 @@
 
 ![image](https://github.com/user-attachments/assets/41278e7d-84f9-4bc5-b5b0-a1ae437a8037)
 
+## Команда
+
+1. Анастасия Бородкина - Product manager
+2. Максим Матвеев - UI/UX designer
+3. Илья Синякин - Frontend developer
+4. Дмитрий Смотряев - Frontend developer
+
 ## О проекте
 
 Наш проект - это веб-сайт для Музейной усадьбы "Суйда". 
@@ -26,7 +33,7 @@
 
 1. Design: Figma.
 2. Frontend: TypeScript, React, Vite.
-3. Deployment: Vercel
+3. Deployment: Vercel https://suida-museum.vercel.app
 
 ## Как использовать
 
@@ -35,11 +42,5 @@
 3. Запустите проект с помощью npm run dev.
 4. Откройте браузер и перейдите на http://localhost:5173 для просмотра сайта.
 
-## Команда
-
-1. Анастасия Бородкина - Product manager
-2. Максим Матвеев - UI/UX designer
-3. Илья Синякин - Frontend developer
-4. Дмитрий Смотряев - Frontend developer
 
 
