@@ -26,7 +26,7 @@
 
 1. Design: Figma.
 2. Frontend: TypeScript, React, Vite.
-3. Deployment: Vercel
+3. Deployment: Vercel https://suida-museum.vercel.app/events
 
 ## Как использовать
 
