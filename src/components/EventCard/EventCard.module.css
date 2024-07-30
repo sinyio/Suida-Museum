@@ -1,6 +1,5 @@
 .eventCard {
   height: 630px;
-  flex-basis: calc(25% - 21px);
   position: relative;
   overflow: hidden;
   transition: 0.3s ease-out scale;

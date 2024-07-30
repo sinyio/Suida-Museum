@@ -1,0 +1,32 @@
+.descriptionWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 44%;
+}
+
+.textBlock {
+  display: flex;
+  flex-basis: 56%;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.text {
+  white-space: 'pre-line'
+}
+
+.descriptionSection {
+  position: relative;
+}
+
+.descriptionSection::after {
+  content: '';
+  width: calc(100% - 200px);
+  position: absolute;
+  height: 1px;
+  background-color: var(--white-color);
+  bottom: 0;
+}

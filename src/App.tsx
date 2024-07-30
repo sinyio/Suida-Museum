@@ -1,13 +1,13 @@
 import { FC } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Visit from "./pages/Visit/Visit";
-import OnlineTour from "./pages/OnlineTour/OnlineTour";
-import Events from "./pages/Events/Events";
+import HomePage from "./pages/HomePage/HomePage";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import VisitPage from "./pages/VisitPage/VisitPage";
+import OnlineTourPage from "./pages/OnlineTourPage/OnlineTourPage";
+import EventsPage from "./pages/EventsPage/EventsPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import EventDetail from "./pages/EventDetail/EventDetail";
+import EventDetailPage from "./pages/EventDetailPage/EventDetailPage";
 import ExhibitsPage from "./pages/ExhibitsPage/ExhibitsPage";
 
 const App: FC = () => {
@@ -16,12 +16,12 @@ const App: FC = () => {
       <ScrollToTop />
       <Layout>
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/events/:id" element={<EventDetail />} />
-          <Route path="/visit" element={<Visit />} />
-          <Route path="/online-tour" element={<OnlineTour />} />
-          <Route path="/about" element={<About />} />     
+          <Route index element={<HomePage />} />
+          <Route path="/events" element={<EventsPage />} />
+          <Route path="/events/:id" element={<EventDetailPage />} />
+          <Route path="/visit" element={<VisitPage />} />
+          <Route path="/online-tour" element={<OnlineTourPage />} />
+          <Route path="/about" element={<AboutPage />} />     
           <Route path="/exhibits" element={<ExhibitsPage />} />
         </Routes>
       </Layout>

@@ -30,7 +30,7 @@
         "title": "Как попасть",
         "addressTitle": "Адрес:",
         "address": "Ленинградская область, Гатчинский район, посёлок Суйда, ул. Центральная, 1",
-        "scheduleTitle": "Режим работы:", 
+        "scheduleTitle": "Режим работы:",
         "scheduleOpen": "Вт - Вс 10:00 - 17:00 (касса до 16:30)",
         "scheduleClosed": "Пн - выходной",
         "warningTitle": "Обратите внимание:",
@@ -43,6 +43,33 @@
         "contactEmail": "Е-mail: ",
         "contactPhone": "Тел: ",
         "socialTitle": "Соцсети"
+      }
+    },
+    "aboutPage": {
+      "hero": {
+        "title": "Музей-усадьба Суйда"
+      },
+      "history": {
+        "title": "История усадьбы",
+        "description1": "«Су́йда» — музей-усадьба в посёлке Суйда Гатчинского района Ленинградской области, филиал ленинградского областного государственного учреждения культуры «Музейное агентство». Музей расположен во флигеле бывшего поместья Абрама Петровича Ганнибала — прадеда Александра Сергеевича Пушкина. До обустройства этой усадьбы главным имением Ганнибала была Карьякула на территории современной Эстонии.Абрам Ганнибал купил имение в Суйде в 1759 году.",
+        "description2": "В 1986 году краевед Андрей Вячеславович Бурлаков открыл музей истории Суйды, просуществовавший до 1993 года. В 1999-м музей был возрождён как государственный. Его директором стал Бурлаков, который находился на этой должности до начала 2008 года. Из построек оригинальной усадьбы до наших дней сохранились дом управляющего, конюшня, оранжерея, кузница, скотный двор, а также высеченная из ледникового валуна скамейка — «каменный диван». Главный господский дом сгорел в 1897 году. Фундамент был снесён в 1910-м, через участок дома была проложена мощёная дорога. Когда в 1912-м правнучка Абрама Ганнибала Анна Семёновна приезжала в Суйду, она уже не нашла даже остатков особняка.",
+        "description3": "Современный музей располагается в каменном флигеле господской усадьбы, возведённом в 1812 году. В экспозиции представлены подлинные вещи самого Абрама Ганнибала: книги из его библиотеки, бронзовый подсвечник, шкатулка, табакерка, серебряная чайная ложечка. Почти все экспонаты были переданы в дар музею потомками А. П. Ганнибала, пушкинистами, старожилами Суйды. Всего содержится около 1000 единиц хранения. В 1991 году правнуком А. С. Пушкина музею было подарено старинное полотенце с кружевами и монограммой «А. С.», которое по преданию принадлежало А. С. Пушкину. С 1986 года в музее ежегодно проводятся пушкинские праздники. С 2006 года выпускается ежегодный краеведческий альманах «Лукоморье»."
+      },
+      "videoReview": {
+        "title": "Видео обзор",
+        "description": "«Су́йда» — музей-усадьба в посёлке Суйда Гатчинского района Ленинградской области, филиал ленинградского областного государственного учреждения культуры «Музейное агентство». Музей расположен во флигеле бывшего поместья Абрама Петровича Ганнибала — прадеда Александра Сергеевича Пушкина. До обустройства этой усадьбы главным имением Ганнибала была Карьякула на территории современной Эстонии.Абрам Ганнибал купил имение в Суйде в 1759 году."
+      }
+    },
+    "exhibitsPage": {
+      "hero": {
+        "title": "Экспонаты"
+      },
+      "exhibits": {
+        "weddingTitle": "Венчание",
+        "weddingDescription": "В Суйдинском храме в 1796 году состоялось венчание родителей А. С. Пушкина — Надежды Осиповны и поручика Сергея Львовича Пушкина, потомственного дворянина. Запись из метрической книги, свидетельствующую об этом, мы также можем обнаружить внутри музея.",
+        "hannibalTitle": "Абрам Ганнибал",
+        "hannibalDescription": "В первом зале представлена предполагаемая копия портрета юного Ганнибала. Оригинальное название картины — «Портрет неизвестного», и имя автора также неизвестно. По мнению некоторых исследователей, портрет был создан в России по заказу Петра Великого, стремившегося увековечить образ своего фаворита.",
+        "suydaDescription": "Родовой герб, созданный самим Ганнибалом, и минея служебная с его собственноручной подписью. Минея была подарена А. П. Ганнибалом церкви Воскресения Христова в Суйде 21 июня 1775 года в честь дня рождения его внучки, Надежды Осиповны Ганнибал."
       }
     }
   },
@@ -66,7 +93,7 @@
       },
       "events": {
         "title": "Events",
-        "link": "View all"
+        "link": "View All"
       },
       "exhibits": {
         "title": "Exhibits",
@@ -77,7 +104,7 @@
         "title": "Visit Us",
         "addressTitle": "Address:",
         "address": "Leningrad Region, Gatchina District, Suyda Village, Tsentralnaya Street, 1",
-        "scheduleTitle": "Schedule:", 
+        "scheduleTitle": "Schedule:",
         "scheduleOpen": "Tue - Sun 10:00 AM - 5:00 PM (ticket office until 4:30 PM)",
         "scheduleClosed": "Mon - closed",
         "warningTitle": "Please note:",
@@ -90,6 +117,34 @@
         "contactEmail": "Email: ",
         "contactPhone": "Phone: ",
         "socialTitle": "Social Media"
+      }
+    },
+    "aboutPage": {
+      "hero": {
+        "title": "Suyda Estate Museum"
+      },
+      "history": {
+        "title": "The History",
+        "description1": "Suyda is a museum-estate located in the village of Suyda in the Gatchina District of Leningrad Oblast, and is a branch of the Leningrad Regional State Cultural Institution «Museum Agency». The museum is situated in the wing of the former estate of Abram Petrovich Hannibal, the great-grandfather of Alexander Sergeyevich Pushkin. Before this estate was established, Hannibal's main estate was Karyakula in present-day Estonia. Abram Hannibal purchased the estate in Suyda in 1759. Prior to him, the lands belonged to Peter Apraksin, who received them as a gift from Peter I. Under Hannibal, the estate featured a park with a grotto, gazebo, and sundial. Suyda is also the birthplace of Nadezhda Pushkina, Alexander Pushkin's mother, and it was here that she married his father.",
+        "description2": "In 1986, local historian Andrey Vyacheslavovich Burlakov opened a museum dedicated to the history of Suyda, which operated until 1993. In 1999, the museum was revived as a state institution. Burlakov became its director and remained in this position until early 2008. Of the original estate buildings, the manager's house, stables, greenhouse, forge, livestock yard, and a bench carved from a glacial boulder, known as the «stone sofa», have been preserved to this day. The main manor house burned down in 1897. The foundation was demolished in 1910, and a paved road was laid through the site of the house. When Abram Hannibal's great-granddaughter, Anna Semyonovna, visited Suyda in 1912, she no longer found any remains of the mansion.",
+        "description3": "The modern museum is located in a stone wing of the manor estate, built in 1812. The exhibition features authentic items belonging to Abram Hannibal: books from his library, a bronze candlestick, a box, a snuffbox, and a silver teaspoon. Nearly all the exhibits were donated to the museum by Hannibal's descendants, Pushkin scholars, and long-time residents of Suyda. The collection contains about 1,000 items. In 1991, a great-grandson of A.S. Pushkin gifted the museum an antique towel with lace and the monogram «A.S.», which, according to legend, belonged to A.S. Pushkin. Since 1986, the museum has annually hosted Pushkin celebrations. Since 2006, it has published an annual local history almanac called «Lukomorye»"
+      },
+      "videoReview": {
+        "title": "Video Review",
+        "description": "Suyda is a museum-estate located in the village of Suyda in the Gatchina District of Leningrad Oblast, and is a branch of the Leningrad Regional State Cultural Institution «Museum Agency». The museum is situated in the wing of the former estate of Abram Petrovich Hannibal, the great-grandfather of Alexander Sergeyevich Pushkin. Before this estate was established, Hannibal's main estate was Karyakula in present-day Estonia. Abram Hannibal purchased the estate in Suyda in 1759. Prior to him, the lands belonged to Peter Apraksin, who received them as a gift from Peter I. Under Hannibal, the estate featured a park with a grotto, gazebo, and sundial. Suyda is also the birthplace of Nadezhda Pushkina, Alexander Pushkin's mother, and it was here that she married his father."
+      }
+    },
+    "exhibitsPage": {
+      "hero": {
+        "title": "Exhibits"
+      },
+      "exhibits": {
+        "weddingTitle": "The wedding",
+        "weddingDescription": "In 1796, the wedding of Alexander Pushkin's parents — Nadezhda Osipovna and Lieutenant Sergei Lvovich Pushkin, a hereditary nobleman — took place at the Suyda Temple. A record from the parish register documenting this event can also be found inside the museum.",
+        "hannibalTitle": "Abram Hannibal",
+        "hannibalDescription": "In the first hall, there is a presumed copy of a portrait of the young Hannibal. The original title of the painting is «Portrait of an Unknown Man», and the artist's name is also unknown. According to some researchers, the portrait was created in Russia at the request of Peter the Great, who sought to immortalize the image of his favorite.",
+        "suydaTitle": "Suyda Estate",
+        "suydaDescription": "The family coat of arms, created by Hannibal himself, and a service Menaion with his own signature. The Menaion was gifted by A. P. Hannibal to the Church of the Resurrection of Christ in Suyda on June 21, 1775, in honor of the birthday of his granddaughter, Nadezhda Osipovna Hannibal."
       }
     }
   }

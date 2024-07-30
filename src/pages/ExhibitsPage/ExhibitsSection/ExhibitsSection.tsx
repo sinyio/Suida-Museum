@@ -4,20 +4,20 @@ import pagesCSS from "../../Pages.module.css";
 import collageWedding from "../../../assets/collages/Collage-wedding.png";
 import collageHannibal from "../../../assets/collages/Collage-Hannibal.png";
 import collageSuyda from "../../../assets/collages/Collage-Suyda.png";
+import { useTranslation } from "react-i18next";
 
 const ExhibitsSection: FC = () => {
+  const { t } = useTranslation("exhibitsPage");
+
   return (
     <section>
       <div className={styles.wrapper}>
         <div className={styles.exhibitsLeft}>
           <h2 className={`${pagesCSS.sectionTitle} ${styles.title}`}>
-            Венчание
+            {t("exhibits.weddingTitle")}
           </h2>
           <p className={`${pagesCSS.description} ${styles.text}`}>
-            В Суйдинском храме в 1796 году состоялось венчание родителей А. С.
-            Пушкина — Надежды Осиповны и поручика Сергея Львовича Пушкина,
-            потомственного дворянина. Запись из метрической книги,
-            свидетельствующую об этом, мы также можем обнаружить внутри музея.
+            {t("exhibits.weddingDescription")}
           </p>
         </div>
         <div className={styles.exhibitsRight}>
@@ -31,14 +31,10 @@ const ExhibitsSection: FC = () => {
         </div>
         <div className={styles.exhibitsRight}>
           <h2 className={`${pagesCSS.sectionTitle} ${styles.title}`}>
-            Абрам Ганнибал
+            {t("exhibits.hannibalTitle")}
           </h2>
           <p className={`${pagesCSS.description} ${styles.text}`}>
-            В первом зале представлена предполагаемая копия портрета юного
-            Ганнибала. Оригинальное название картины — "Портрет неизвестного", и
-            имя автора также неизвестно. По мнению некоторых исследователей,
-            портрет был создан в России по заказу Петра Великого, стремившегося
-            увековечить образ своего фаворита.
+            {t("exhibits.hannibalDescription")}
           </p>
         </div>
       </div>
@@ -46,13 +42,10 @@ const ExhibitsSection: FC = () => {
       <div className={styles.wrapper}>
         <div className={styles.exhibitsLeft}>
           <h2 className={`${pagesCSS.sectionTitle} ${styles.title}`}>
-            Усадьба суйда
+          {t("exhibits.suydaTitle")}
           </h2>
           <p className={`${pagesCSS.description} ${styles.text}`}>
-            Родовой герб, созданный самим Ганнибалом, и минея служебная с его
-            собственноручной подписью. Минея была подарена А. П. Ганнибалом
-            церкви Воскресения Христова в Суйде 21 июня 1775 года в честь дня
-            рождения его внучки, Надежды Осиповны Ганнибал.
+          {t("exhibits.suydaDescription")}
           </p>
         </div>
         <div className={styles.exhibitsRight}>

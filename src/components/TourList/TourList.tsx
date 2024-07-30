@@ -6,9 +6,10 @@ import TourCard from "../TourCard/TourCard";
 
 const TourList: FC = () => {
   return (
-    <Carousel showThumbs={false} showStatus={false} emulateTouch useKeyboardArrows>
+    <Carousel showThumbs={false} showStatus={false} emulateTouch>
       {tours.map((tour) => (
         <TourCard
+          key={tour.id}
           id={tour.id}
           title={tour.title}
           description={tour.description}

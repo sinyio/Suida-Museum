@@ -1,0 +1,31 @@
+.videoReviewSection {
+  position: relative;
+}
+
+.videoReviewSection::after {
+  content: '';
+  width: calc(100% - 200px);
+  position: absolute;
+  height: 1px;
+  background-color: var(--white-color);
+  top: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 44%;
+}
+
+
+.videoReviewRight {
+  flex-basis: 56%;
+}
+
+.videoReview {
+  width: 100%;
+  margin-bottom: 40px;
+}
