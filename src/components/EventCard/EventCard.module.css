@@ -22,10 +22,10 @@
 
 .cardText {
   width: 100%;
-  height: 45%;
+  height: 42%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   position: absolute;
   padding: 30px 35px;
   bottom: 0;
@@ -55,4 +55,61 @@
 
 .eventCardWithoutDescr .cardText {
   height: 30%;
+  justify-content: space-around;
+}
+
+@media (width < 1650px) {
+  .eventCard {
+    height: 580px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .cardText {
+    height: 38%;
+    padding: 25px 30px;
+  }
+
+
+  .description {
+    font-size: 20px;
+  }
+
+  .logo,
+  .switchBtnWrapper {
+    width: 100px;
+  }
+
+  .navList {
+    gap: 40px;
+  }
+}
+
+@media (width < 1470px) {
+  .eventCard {
+    height: 542px;
+  }
+
+  .title {
+    font-size: 21px;
+  }
+
+  .cardText {
+    padding: 25px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .logo,
+  .switchBtnWrapper {
+    width: 100px;
+  }
+
+  .navList {
+    gap: 40px;
+  }
 }

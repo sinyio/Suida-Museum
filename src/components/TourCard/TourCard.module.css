@@ -24,8 +24,9 @@
 }
 
 .imageWrapper {
-  width: 554px;
+
   height: 100%;
+  aspect-ratio: 1/1
 }
 
 .imageWrapper:hover .image {
@@ -54,3 +55,15 @@
   left: 0;
 }
 
+@media (width < 1650px) {
+  .tourCard {
+    padding: 70px 90px;
+    height: 580px;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+}

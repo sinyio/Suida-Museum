@@ -25,7 +25,6 @@
   font-family: "Cormorant Unicase", serif;
   color: var(--white-color);
   text-transform: uppercase;
-  text-transform: uppercase;
   position: relative;
 }
 
@@ -38,7 +37,8 @@
   position: relative;
 }
 
-.link::after, .switchBtn::after  {
+.link::after,
+.switchBtn::after {
   content: '';
   width: 0;
   position: absolute;
@@ -49,10 +49,27 @@
   transition: 0.3s ease width;
 }
 
-.link:hover::after, .switchBtn:hover::after {
+.link:hover::after,
+.switchBtn:hover::after {
   width: 100%;
 }
 
-.logo, .switchBtnWrapper {
+.logo,
+.switchBtnWrapper {
   width: 114px;
+}
+
+@media (width < 1650px) {
+  .link {
+    font-size: 23px
+  }
+
+  .logo,
+  .switchBtnWrapper {
+    width: 100px;
+  }
+
+  .navList {
+    gap: 40px;
+  }
 }

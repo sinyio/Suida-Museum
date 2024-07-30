@@ -4,3 +4,9 @@
   font-size: 26px;
   color: var(--white-color);
 }
+
+@media (width < 1650px) {
+  .languageSwitchBtn {
+    font-size: 23px
+  }
+}

@@ -3,3 +3,9 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 28px;
 }
+
+@media (width < 1650px) {
+  .eventList {
+    gap: 24px;
+  }
+}

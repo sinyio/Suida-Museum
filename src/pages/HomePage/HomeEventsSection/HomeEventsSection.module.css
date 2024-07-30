@@ -20,3 +20,9 @@
   width: 85%;
   color: #98a31f;
 }
+
+@media (width < 1650px) {
+  .link {
+    font-size: 20px;
+  }
+}

@@ -69,3 +69,21 @@
 .excursionCard:hover .image {
   filter: brightness(10%);
 }
+
+@media (width < 1650px) {
+  .excursionCard {
+    height: 540px;
+  }
+
+  .cardText {
+    padding: 20px;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+}

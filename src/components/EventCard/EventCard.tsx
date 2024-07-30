@@ -30,7 +30,9 @@ const EventCard: FC<IEventCard> = ({
         <div className={styles.cardText}>
           <h3 className={styles.title}>{title}</h3>
           {showDescription ? (
-            <p className={styles.description}>{description.slice(0, 60) + ' . . .'}</p>
+            <p className={styles.description}>
+              {description.slice(0, 60) + " . . ."}
+            </p>
           ) : null}
         </div>
       </Link>

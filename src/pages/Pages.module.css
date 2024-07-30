@@ -75,3 +75,36 @@
   background-color: var(--green-color);
   transition: 0.3s ease-out background-color;
 }
+
+@media (width < 1650px) {
+  .container section {
+    padding: 100px 80px;
+    overflow: hidden;
+  }
+
+  .mainTitle {
+    font-size: 75px;
+  }
+
+  .sectionTitle {
+    font-size: 56px;
+  }
+
+  .sectionTitle::before {
+    height: 120px;
+    top: -28px;
+    left: -80px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+
+  .buttonLink {
+    font-size: 20px;
+  }
+}

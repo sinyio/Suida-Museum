@@ -1,13 +1,14 @@
 .wrapper {
   display: flex;
   padding: 60px;
+  height: 700px;
   background-color: var(--grey-color);
   gap: 90px;
 }
 
 .visitLeft {
-  width: 580px;
-  height: 580px;
+  height: 100%;
+  aspect-ratio: 1/1;
 }
 
 .visitLeft img {
@@ -47,4 +48,30 @@
 
 .innerButton:active {
   background-color: var(--active-color);
+}
+
+@media (width < 1650px) {
+  .wrapper {
+    display: flex;
+    height: 580px;
+    padding: 60px;
+    background-color: var(--grey-color);
+    gap: 70px;
+  }
+
+  .visitRight {
+    width: 50%;
+  }
+
+  .innerTitle {
+    font-size: 25px;
+  }
+
+  .addressBlock {
+    margin-bottom: 40px;
+  }
+
+  .innerButton {
+    padding: 10px 45px;
+  }
 }

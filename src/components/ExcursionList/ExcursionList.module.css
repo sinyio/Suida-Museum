@@ -3,3 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
+
+@media (width < 1650px) {
+  .excursionList {
+    gap: 24px;
+  }
+}
