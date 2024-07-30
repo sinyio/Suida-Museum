@@ -1,10 +1,5 @@
-.title {
-  bottom: 120px;
-}
-
 .image {
   object-fit: cover;
-  height: 92vh;
 }
 
 .wrapper {

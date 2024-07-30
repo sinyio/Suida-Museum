@@ -18,7 +18,7 @@ const TourCard: FC<ITourCard> = ({ id, title, description, img }) => {
         <p className={styles.description}>{description}</p>
       </div>
       <div className={styles.imageWrapper}>
-        <Link className={styles.link} to={`/tours/${id}`}>
+        <Link className={styles.link} to={`/online-tour/${id}`}>
           <div className={styles.imageInnerWrapper}>
             <img className={styles.image} src={img} alt="Тур" />
             <button className={`${pagesCSS.buttonLink} ${styles.startButton}`}>Начать тур</button>
