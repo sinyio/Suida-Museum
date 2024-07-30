@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
+# Музей-усадьба "Суйда" - Студенческий Хакатон
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Добро пожаловать в репозиторий проекта, созданного в рамках Студенческого хакатона, организованного компанией "PushKeen", совместно с Музейным агентством Санкт-Петербурга и Ленинградской области.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/41278e7d-84f9-4bc5-b5b0-a1ae437a8037)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## О проекте
 
-## Expanding the ESLint configuration
+Наш проект - это веб-сайт для Музейной усадьбы "Суйда". 
+Мы стремились создать интерактивную и информативную платформу, которая позволяет посетителям узнать больше о культурном наследии и истории усадьбы.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Разделы
 
-- Configure the top-level `parserOptions` property like this:
+1. Главная.
+2. Афиша. Раздел с обновляемыми данными о мероприятиях и событиях.
+3. Страница с подробным описанием события.
+4. Информация об эксурсиях.
+5. Онлайн тур. Виртуальные туры, позволяющие пользователям посещать различные достопримечательности.
+6. Страница тура (демо).
+7. О музее. История усадьбы и видео-обзор.
+8. Экспонаты.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Технологии
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Проект разработан с использованием следующих технологий и инструментов:
+
+1. Design: Figma.
+2. Frontend: TypeScript, React, Vite.
+3. Deployment: Vercel
+
+## Как использовать
+
+1. Клонируйте репозиторий на локальную машину.
+2. Установите зависимости с помощью npm install.
+3. Запустите проект с помощью npm run dev.
+4. Откройте браузер и перейдите на http://localhost:5173 для просмотра сайта.
+
+## Команда
+
+1. Анастасия Бородкина - Product manager
+2. Максим Матвеев - UI/UX designer
+3. Илья Синякин - Frontend developer
+4. Дмитрий Смотряев - Frontend developer
+
+
